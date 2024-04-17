@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import './App.css';
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -17,6 +16,7 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
