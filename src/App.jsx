@@ -6,6 +6,7 @@ import Register from './pages/Register/Register';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Produto from './pages/Produto/Produto';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/about" element={<About />} />
+            <Route path="/produto" element={<Produto />} />
           </Routes>
         </div>
         <Footer/>
